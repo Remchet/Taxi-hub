@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taxi Hub: Chümoukedima → Kohima</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #ffd194, #70e1f5);
+      text-align: center;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px 10px;
+    }
+
+    .motto {
+      font-size: 20px;
+      margin-top: 10px;
+      font-style: italic;
+      color: #ffeecc;
+    }
+
+    .content {
+      padding: 40px 20px;
+    }
+
+    .taxi-icon {
+      font-size: 80px;
+      margin-bottom: 10px;
+    }
+
+    .route {
+      font-size: 26px;
+      margin: 20px 0;
+    }
+
+    .fare {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 10px 0;
+      color: #222;
+    }
+
+    a.button {
+      display: inline-block;
+      background-color: #f9a825;
+      color: white;
+      padding: 15px 35px;
+      font-size: 22px;
+      border-radius: 10px;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: background-color 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #f57f17;
+    }
+
+    .phone {
+      margin-top: 30px;
+      font-size: 20px;
+    }
+
+    .phone a {
+      color: #222;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .about, .tourism {
+      background: white;
+      margin: 30px auto;
+      padding: 20px;
+      max-width: 900px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: left;
+    }
+
+    .about h2, .tourism h2 {
+      text-align: center;
+      color: #222;
+    }
+
+    .tourism img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+      margin: 10px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 12px;
+      background-color: #222;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🚖 Taxi Hub: Chümoukedima → Kohima</h1>
+    <div class="motto">"Pay After You Reach"</div>
+  </header>
+
+  <div class="content">
+    <div class="taxi-icon">🚕 🚗 🚙</div>
+
+    <div class="route">
+      <strong>From:</strong> Chümoukedima<br>
+      <strong>To:</strong> Kohima
+    </div>
+
+    <div class="fare">Fare: ₹500 per person</div>
+
+    <!-- Book Now button opens WhatsApp -->
+    <a class="button" href="https://wa.me/919366985075?text=I%20want%20to%20book%20a%20taxi%20from%20Chümoukedima%20to%20Kohima" target="_blank">
+      Book Now
+    </a>
+
+    <div class="phone">
+      📞 Contact: <a href="tel:9366985075">9366985075</a><br>
+      👨‍✈️ Driver: <strong>Remchet</strong>
+    </div>
+  </div>
+
+  <div class="about">
+    <h2>About Taxi Hub</h2>
+    <p>
+      Taxi Hub offers reliable and affordable taxi services between 
+      <strong>Chümoukedima and Kohima</strong>. With our "Pay After You Reach" policy, 
+      you can travel with peace of mind knowing you only pay once you’ve reached safely.  
+      Whether you’re a local commuter or a tourist exploring Nagaland, our driver 
+      <strong>Remchet</strong> ensures a comfortable and safe journey.
+    </p>
+  </div>
+
+  <div class="tourism">
+    <h2>Explore Nagaland</h2>
+    <p>
+      Nagaland is a land of vibrant culture, scenic landscapes, and warm hospitality. 
+      While traveling with us, discover some of the most popular tourist attractions:
+    </p>
+    <ul>
+      <li><strong>Kohima War Cemetery</strong> – A serene memorial dedicated to soldiers of WWII.</li>
+      <li><strong>Dzukou Valley</strong> – Famous for its lush greenery and seasonal flowers.</li>
+      <li><strong>Khonoma Village</strong> – Known as Asia’s first green village.</li>
+      <li><strong>Hornbill Festival</strong> – The "Festival of Festivals" showcasing Naga culture.</li>
+    </ul>
+    <div style="text-align:center;">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Dzukou_Valley.jpg" alt="Dzukou Valley">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Kohima_War_Cemetery.jpg" alt="Kohima War Cemetery">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Hornbill_Festival_2014.jpg" alt="Hornbill Festival">
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Taxi Hub | Powered by Local Rides
+  </footer>
+
+</body>
+</html>
